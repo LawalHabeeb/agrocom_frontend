@@ -1,7 +1,7 @@
 :root{
-	--clr-darkgreen: #10171e;
-	--clr-lightgreen: #1c2938;
-	--clr-white: #fff;
+	--clr-darkgreen: #226C0F;
+	--clr-lightgreen: #DCF9D4;
+	--clr-white: #f6f6f5;
 	--clr-black: #000;
 }
 
@@ -9,6 +9,7 @@ body{
 	width: 100vw;
 	height: 100vh;
 	font-family: sans-serif;
+	background-color: var(--clr-white);
 }
 
 /********************
@@ -17,12 +18,11 @@ body{
 
 ********************/
 .ext-sign{
-	width: 50%;
 	margin: 16px;
 }
 
 .ext-sign button{
-	width: 400px;
+	width: 350px;
 	height: 40px;
 	border-radius: 5px;
 	margin: 5px;
@@ -42,22 +42,32 @@ body{
 	border: 1px solid #4267B2;
 }
 
-input[type=text], input[type=password] label {
+input[type=text], input[type=password], .login{
 	width: 250px;
 	display: inline-block;
-	border: 1px solid #ccc;
 	box-sizing: border-box;
-  }
+	margin: 2px 0px;
+	position: relative;
+	border-radius: 10px;
+	height: 33px;
+	border: 1px solid var(--clr-white);
+}
 
-  .fill-part{
-	  width: 400px;
+.login{
+	background-color: var(--clr-darkgreen);
+	border: 1px solid var(--clr-darkgreen)
+}
+
+.fill-part{
+	  width: 350px;
 	  background-color: var(--clr-lightgreen);
 	  display: inline-block;
 	  color: var(--clr-black);
-	  padding: 8px;
-	  position: absolute;
+	  padding: 10px 45px;
 	  border: 1px solid grey;
 	  border-radius: 8px;
-  }
+	  margin: 18px;
+}
+
 
 
