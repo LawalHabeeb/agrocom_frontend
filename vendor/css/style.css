@@ -22,11 +22,12 @@ body{
 }
 
 .ext-sign button{
-	width: 320px;
+	width: 400px;
 	height: 40px;
 	border-radius: 5px;
 	margin: 5px;
 	font-weight: bold;
+	position: relative;
 }
 
 .g-but{
@@ -42,10 +43,21 @@ body{
 }
 
 input[type=text], input[type=password] label {
-	width: 320px;
+	width: 250px;
 	display: inline-block;
 	border: 1px solid #ccc;
 	box-sizing: border-box;
+  }
+
+  .fill-part{
+	  width: 400px;
+	  background-color: var(--clr-lightgreen);
+	  display: inline-block;
+	  color: var(--clr-black);
+	  padding: 8px;
+	  position: absolute;
+	  border: 1px solid grey;
+	  border-radius: 8px;
   }
 
 
