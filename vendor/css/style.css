@@ -1,0 +1,51 @@
+:root{
+	--clr-darkgreen: #10171e;
+	--clr-lightgreen: #1c2938;
+	--clr-white: #fff;
+	--clr-black: #000;
+}
+
+body{
+	width: 100vw;
+	height: 100vh;
+	font-family: sans-serif;
+}
+
+/********************
+
+        FORMS
+
+********************/
+.ext-sign{
+	width: 50%;
+	margin: 16px;
+}
+
+.ext-sign button{
+	width: 320px;
+	height: 40px;
+	border-radius: 5px;
+	margin: 5px;
+	font-weight: bold;
+}
+
+.g-but{
+	background-color: var(--clr-white);
+	color: var(--clr-black);
+	border: 1px solid grey;
+}
+
+.f-but{
+	background-color: #4267B2;
+	color: var(--clr-white);
+	border: 1px solid #4267B2;
+}
+
+input[type=text], input[type=password] label {
+	width: 320px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+  }
+
+
