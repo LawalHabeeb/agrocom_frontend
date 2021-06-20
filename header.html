@@ -1,13 +1,55 @@
-<link rel="stylesheet" type="text/css" href="vendor/css/style.css">
+<!DOCTYPE html>
+<meta charset="utf-8">
 <style type="text/css">
-    body {
-        background-color: #1c2938;
-        height: 50px;
+    .container-fluid{
+        background-color: #DCF9D4;
+        display: inline-block;
+        justify-content: space-between;
+        align-items: center;
     }
 
+    a{
+        text-decoration: none;
+    }
+
+    a:hover{
+        text-decoration: none;
+    }
+    
+    #logo{
+        display: flex;
+        align-items: center;
+        padding:0 10px;
+        float: left;
+    }
+
+    li{
+        list-style: none;
+        display: inline-block;
+        margin: 10px;
+        float: left;
+    }
+
+    .search{
+        display: inline-block;
+
+    }
+    .search input{
+        width: 350px;
+        border-radius: 8px;
+        border: 1px solid #f6f6f5;
+    }
+
+    .login{
+        display: inline-block;
+    }
+
+    nav div{
+        display: inline;
+    }
 </style>
 <div class="container-fluid">
-    <a href="index.html">
+    <a href="index.html" id="logo">
         <img src="" alt="agrocom"/>
     </a>
     <nav>
@@ -19,11 +61,11 @@
                 <li><a href="">Archive</a></li>
             </ul>
         </div>
-        <div>
+        <div class="search">
         <input type="text" placeholder="Search...">
         <button type="submit"><i class="fa fa-search"></i></button>
         </div>
-        <div>
+        <div class="login">
             <ul>
                 <li><a href="login.html">Login</a></li>
                 <li><a href="signup.html">Sign up</a></li>

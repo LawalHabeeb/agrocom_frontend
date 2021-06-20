@@ -6,11 +6,33 @@
 }
 
 body{
-	width: 100vw;
 	height: 100vh;
 	font-family: sans-serif;
 	background-color: var(--clr-white);
 }
+
+/******************************
+
+        HEADER AND FOOTER
+
+******************************/
+
+header{
+	background-color: var(--clr-lightgreen);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 40px;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;
+}
+
 
 /********************
 
