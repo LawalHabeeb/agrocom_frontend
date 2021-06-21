@@ -74,7 +74,7 @@ header{
 	border: 1px solid grey;
 }
 
-.w-fill-part{
+.r-fill-part{
 	  width: 450px;
 	  background-color: var(--clr-lightgreen);
 	  display: inline-block;
@@ -84,7 +84,7 @@ header{
 	  border-radius: 8px;
 }
 
-.w-login{
+.r-login{
 	width: 360px;
 	height: 40px;
 	border-radius: 5px;
@@ -93,5 +93,21 @@ header{
 	border: 1px solid var(--clr-darkgreen)
 }
 
+.w-fill-part{
+	  width: 101%;
+	  background-color: var(--clr-lightgreen);
+	  display: inline-block;
+	  color: var(--clr-black);
+	  padding: 35px 45px;
+	  border: 0.1px solid grey;
+	  border-radius: 8px;
+}
 
-
+.w-login{
+	width: 300px;
+	height: 40px;
+	border-radius: 5px;
+	margin: 10px 0px;
+	background-color: var(--clr-darkgreen);
+	border: 1px solid var(--clr-darkgreen);
+}
