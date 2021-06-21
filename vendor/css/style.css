@@ -9,6 +9,7 @@ body{
 	height: 100vh;
 	font-family: sans-serif;
 	background-color: var(--clr-white);
+	color: var(--clr-black)
 }
 
 /******************************
@@ -53,30 +54,29 @@ ul{
 }
 
 .g-but{
+	width: 350px;
+	height: 40px;
+	border-radius: 5px;
+	margin: 5px;
+	font-weight: bold;
 	background-color: var(--clr-white);
 	color: var(--clr-black);
 	border: 1px solid grey;
 }
 
 .f-but{
+	width: 350px;
+	height: 40px;
+	border-radius: 5px;
+	margin: 5px;
+	font-weight: bold;
 	background-color: #4267B2;
 	color: var(--clr-white);
 	border: 1px solid #4267B2;
 }
 
-input[type=text], input[type=password], .login{
-	width: 250px;
-	display: inline-block;
-	box-sizing: border-box;
-	margin: 2px 0px;
-	position: relative;
-	border-radius: 10px;
-	height: 33px;
-	border: 1px solid var(--clr-white);
-}
-
 .login{
-	background-color: var(--clr-darkgreen);
+		background-color: var(--clr-darkgreen);
 	border: 1px solid var(--clr-darkgreen)
 }
 
@@ -86,9 +86,8 @@ input[type=text], input[type=password], .login{
 	  display: inline-block;
 	  color: var(--clr-black);
 	  padding: 10px 45px;
-	  border: 1px solid grey;
+	  border: 0.1px solid grey;
 	  border-radius: 8px;
-	  margin: 18px;
 }
 
 
