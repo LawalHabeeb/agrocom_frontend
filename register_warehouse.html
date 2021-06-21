@@ -31,28 +31,40 @@
 <body>
 	<header id="header"></header>
 
-	<div class="row">
-		<div class="col-lg-6">
-			<h3> Register</h3>
-			<h1> Warehouse </h1>
+	<div class="row d-flex align-items-center justify-content-center">
+		<div class="col-lg-7" style="transform: translateX(30%); color: #000; font-family: monospace;">
+			<h3 style="font-size: 60px"> Register</h3>
+			<h1 style="font-size: 80px"> Warehouse </h1>
 		</div>
-		<div class="col-lg-6">
-			<div>
-				<form>
-					<input type="text" name="" placeholder="Warehouse Name">
-					<input type="text" name="" placeholder="Location of Warehouse">
-					<input type="text" name="" placeholder="Type of accepted products">
-					<input type="text" name="" placeholder="Size/capacity of Warehouse">
-					<input type="text" name="" placeholder="Phone number">
-					<button> Register Warehouse </button>
-				</form>
-			</div>
+		<div class="col-lg-5">
+			<form class="w-fill-part">
+				<div class="form-outline mb-4">
+					<input type="text" id="name" class="form-control" style="background-color: #fff; border: 1px solid grey">
+					<label class="form-label" for="name"> Warehouse name</label>
+				</div>
+				<div class="form-outline mb-4">
+					<input type="text" id="location" class="form-control" style="background-color: #fff; border: 1px solid grey">
+					<label class="form-label" for="location"> Location of warehouse </label>
+				</div>
+				<div class="form-outline mb-4">
+					<input type="text" id="products" class="form-control" style="background-color: #fff; border: 1px solid grey">
+					<label class="form-label" for="products"> Type of accepted products </label>
+				</div>
+				<div class="form-outline mb-4">
+					<input type="text" id="size" class="form-control" style="background-color: #fff; border: 1px solid grey">
+					<label class="form-label" for="size"> Size/Capacity of Warehouse </label>
+				</div>
+				<div class="form-outline mb-4">
+					<input type="text" id="phone" class="form-control" style="background-color: #fff; border: 1px solid grey">
+					<label class="form-label" for="phone"> Phone Number </label>
+				</div>
+					<button type="button" class="w-login"> Register Warehouse </button>
+			</form>
 		</div>
-		
 	</div>
 
 
-	<footer id="footer"></footer>
+	<footer class="page-footer text-center fixed-bottom" id="footer"></footer>
 
 </body>
 </html>

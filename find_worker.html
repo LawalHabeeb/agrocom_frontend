@@ -4,6 +4,9 @@
 	<!-- Compiled and minified CSS -->
 	<link rel="stylesheet" type="text/css" href="vendor/css/bootstrap.min.css">
 
+	<!-- Stylesheet for nonbootstrap function -->
+	<link rel="stylesheet" type="text/css" href="vendor/css/style.css">
+
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="vendor/css/bootstrap-theme.min.css">
 
@@ -29,20 +32,45 @@
 	<header id="header"></header>
 
 	<div class="row">
-		<div class="col-lg-6">
+		<div class="col-lg-5">
 			<h3> Find a </h3>
 			<h1> Worker </h1>
 		</div>
-		<div class="col-lg-6">
-			<div>
-				<form>
-					<input type="text" name="" placeholder="Fullname">
-					<input type="text" name="" placeholder=" Work Location">
-					<input type="text" name="" placeholder="Nature of Work">
-					<input type="text" name="" placeholder="Phone number">
-					<input type="text" name="" placeholder="Job Description">
-					<button> Find Worker </button>
-				</form>
+		<div class="col-lg-7">
+			<form class="w-fill-part">
+				<div class="row mb-4">
+					<div class="col">
+						<div class="form-outline">
+							<input type="text" id="name" class="form-control" style="background-color: #fff; border: 1px solid grey">
+							<label class="form-label" for="name"> Full Name</label>
+						</div>
+					</div>
+					<div class="col">
+						<div class="form-outline">
+							<input type="text" id="location" class="form-control" style="background-color: #fff; border: 1px solid grey">
+							<label class="form-label" for="location"> Preferred Work Location </label>
+						</div>
+					</div>
+				</div>
+				<div class="row mb-4">
+					<div class="col">
+						<div class="form-outline">
+							<input type="text" id="products" class="form-control" style="background-color: #fff; border: 1px solid grey">
+							<label class="form-label" for="products"> Job Type </label>
+						</div>
+					</div>
+					<div class="col">
+						<div class="form-outline">
+							<input type="text" id="size" class="form-control" style="background-color: #fff; border: 1px solid grey">
+							<label class="form-label" for="size"> Phone Number </label>
+						</div>
+					</div>
+				</div>
+				<div class="form-outline">
+					<input type="text" id="phone" class="form-control" style="height: 150px; background-color: #fff; border: 1px solid grey">
+					<label class="form-label" for="phone"> Job Description </label>
+				</div>
+					<button type="button" class="w-login"> Register Warehouse </button>
 			</div>
 		</div>
 		
