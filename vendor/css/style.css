@@ -40,21 +40,9 @@ ul{
         FORMS
 
 ********************/
-.ext-sign{
-	margin: 16px;
-}
-
-.ext-sign button{
-	width: 350px;
-	height: 40px;
-	border-radius: 5px;
-	margin: 5px;
-	font-weight: bold;
-	position: relative;
-}
 
 .g-but{
-	width: 350px;
+	width: 400px;
 	height: 40px;
 	border-radius: 5px;
 	margin: 5px;
@@ -65,7 +53,7 @@ ul{
 }
 
 .f-but{
-	width: 350px;
+	width: 400px;
 	height: 40px;
 	border-radius: 5px;
 	margin: 5px;
@@ -76,12 +64,15 @@ ul{
 }
 
 .login{
-		background-color: var(--clr-darkgreen);
+	width: 310px;
+	border-radius: 5px;
+	margin: 10px 0px;
+	background-color: var(--clr-darkgreen);
 	border: 1px solid var(--clr-darkgreen)
 }
 
 .fill-part{
-	  width: 350px;
+	  width: 400px;
 	  background-color: var(--clr-lightgreen);
 	  display: inline-block;
 	  color: var(--clr-black);
