@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 :root{
 	--clr-darkgreen: #226C0F;
 	--clr-lightgreen: #DCF9D4;
@@ -7,7 +10,7 @@
 
 body{
 	height: 100vh;
-	font-family: sans-serif;
+	font-family: 'Muli', sans-serif;
 	background-color: var(--clr-white);
 	color: var(--clr-black)
 }
@@ -22,6 +25,53 @@ header{
 	background-color: var(--clr-lightgreen);
 }
 
+/********************
+
+        INDEX
+
+********************/
+
+.log{
+	color: var(--clr-white);
+	font-weight: bold;
+	width: 140px;
+	height: 40px;
+	background-color: var(--clr-black);
+	border-radius: 25px;
+	border: none;
+}
+
+.reg{
+	color: var(--clr-white);
+	font-weight: bold;
+	width: 140px;
+	height: 40px;
+	background-color: var(--clr-darkgreen);
+	border-radius: 25px;
+	border: none;
+}
+
+.check{
+	color: var(--clr-white);
+	font-weight: normal;
+	width: 140px;
+	height: 30px;
+	background-color: var(--clr-darkgreen);
+	border-radius: 5px;
+	border: none;
+}
+
+.ask{
+	background-color: var(--clr-lightgreen);
+	height: 100px;
+}
+
+.info{
+	width: 50%;
+	background-color: var(--clr-lightgreen);
+	border-radius: 15px;
+	padding: 15px;
+}
 
 /********************
 

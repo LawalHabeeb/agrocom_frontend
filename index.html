@@ -2,8 +2,9 @@
 <html>
 <head>
 	<meta charset="utf-8">
+
 	<!-- Compiled and minified CSS -->
-	<link rel="stylesheet" type="text/css" href="vendor/css/mdb.min.css">
+	<link rel="stylesheet" type="text/css" href="vendor/css/bootstrap.css">
 
 	<!-- Stylesheet for nonbootstrap function -->
 	<link rel="stylesheet" type="text/css" href="vendor/css/style.css">
@@ -35,18 +36,58 @@
 <body>
 	<header class="page-header" id="header"></header>
 
-	<div class="row">
-		<div class="col-md-8">
-			
-		</div>
+	<!-- Main body -->
+	<div>
+		<div class="row mt-5">
+			<!-- Details side for homepage -->
+			<div class="col-lg-8">
+				<div style="width: 60%; height: 400px; top: 50%; left: 50%;">
+					<h2> Improve productivity and connect with farmers around you </h2>
+					<p> Agrocom is a community created for people in the field of agriculture to help improve productivity and to bring farmers and other area of agricultural fields together to solve agricultural related problems. </p>
+					<button class="log"> Login </button>
+					<button class="reg"> Register </button>
+				</div>	
+				<div class="ask mb-3 d-flex align-items-center justify-content-center" style="margin-top: 6px">
+					<a href="questions.html"><h2>Got Agricultiural Questions?   Ask here</h2></a>
+				</div>
+				<div class="row">
+					<div class="col-md-1"></div>
+					<div class="col-md-4 info">
+						<img class="rounded-circle" src="#" style="border: 3px solid #226C0F; padding: 7px">
+						<h3> We offer a wide range of services that help bring ease to the agricultural community </h3>
+						<p> Agrocom is a platform used by anyone in the agricultural field to learn, share their knowledge, earn income,promote their business and improve producivity</p>
+						<button class="check"> Join Us Today </button>
+					</div>
+					<div class="col-md-2"></div>
+					<div class="col-md-4 info">
+						<img class="rounded-circle" src="#" style="border: 3px solid #226C0F; padding: 7px">
+						<h3> We provide research articles and other scientific researches </h3>
+						<p> Read and learn more about your interested fields in agriculture to help become more productive</p>
+						<button class="check"> Search Archive </button>
+					</div>
+					<div class="col-md-1"></div>
+				</div>
+				<div>
+					<h2> News and Updates </h2>
+					<p>Get latest news on agricultural discoveries and development, loans and grants availability e.t.c</p>
 
-		<!-- Sidebar start -->
-		<div class="col-md-4">
-			
+					{% block news %} {% endblock %}
+				</div>
+				<div class="ask d-flex align-items-center justify-content-center" style="margin-top: 6px">
+					<a href="questions.html"><h2>Got Agricultiural Questions?   Ask here</h2></a>
+				</div>
+
+			</div>
+			<!-- Details side for homepage ends -->
+
+			<!-- Sidebar start -->
+			<div class="col-lg-4">
+				
+			</div>
+			<!-- Sidebar end -->
 		</div>
-		<!-- Sidebar end -->
 	</div>
 
-	<footer class="page-footer text-center fixed-bottom" id="footer"></footer>
+	<footer class="page-footer text-center" id="footer"></footer>
 </body>
 </html>
