@@ -80,6 +80,47 @@ header{
 
 ********************/
 
+.fill-part{
+	  width: 400px;
+	  background-color: var(--clr-lightgreen);
+	  display: inline-block;
+	  color: var(--clr-black);
+	  padding: 10px 45px;
+	  border: 0.1px solid grey;
+	  border-radius: 8px;
+}
+
+.in{
+	background-color: var(--clr-white);
+	border: 1px solid grey;
+}
+
+.r-fill-part{
+	  width: 450px;
+	  background-color: var(--clr-lightgreen);
+	  display: inline-block;
+	  color: var(--clr-black);
+	  padding: 35px 45px;
+	  border: 0.1px solid grey;
+	  border-radius: 8px;
+}
+
+.w-fill-part{
+	  width: 101%;
+	  background-color: var(--clr-lightgreen);
+	  display: inline-block;
+	  color: var(--clr-black);
+	  padding: 35px 45px;
+	  border: 0.1px solid grey;
+	  border-radius: 8px;
+}
+
+/********************
+
+       BUTTONS
+
+********************/
+
 .g-but{
 	width: 400px;
 	height: 40px;
@@ -110,50 +151,6 @@ header{
 	border: 1px solid var(--clr-darkgreen)
 }
 
-.fill-part{
-	  width: 400px;
-	  background-color: var(--clr-lightgreen);
-	  display: inline-block;
-	  color: var(--clr-black);
-	  padding: 10px 45px;
-	  border: 0.1px solid grey;
-	  border-radius: 8px;
-}
-
-.in{
-	background-color: var(--clr-white);
-	border: 1px solid grey;
-}
-
-.r-fill-part{
-	  width: 450px;
-	  background-color: var(--clr-lightgreen);
-	  display: inline-block;
-	  color: var(--clr-black);
-	  padding: 35px 45px;
-	  border: 0.1px solid grey;
-	  border-radius: 8px;
-}
-
-.r-login{
-	width: 360px;
-	height: 40px;
-	border-radius: 5px;
-	margin: 10px 0px;
-	background-color: var(--clr-darkgreen);
-	border: 1px solid var(--clr-darkgreen)
-}
-
-.w-fill-part{
-	  width: 101%;
-	  background-color: var(--clr-lightgreen);
-	  display: inline-block;
-	  color: var(--clr-black);
-	  padding: 35px 45px;
-	  border: 0.1px solid grey;
-	  border-radius: 8px;
-}
-
 .w-login{
 	width: 300px;
 	height: 40px;
@@ -161,4 +158,30 @@ header{
 	margin: 10px 0px;
 	background-color: var(--clr-darkgreen);
 	border: 1px solid var(--clr-darkgreen);
+}
+.r-login{
+	width: 360px;
+	height: 40px;
+	border-radius: 5px;
+	margin: 10px 0px;
+	background-color: var(--clr-darkgreen);
+	border: 1px solid var(--clr-darkgreen);
+}
+
+.white-but{
+	width: 180px;
+	height: 50px;
+	border-radius: 20px;
+	margin: 10px 0px;
+	background-color: var(--clr-lightgreen);
+	border: 1px solid var(--clr-darkgreen)
+}
+
+.green-but{
+	width: 180px;
+	height: 50px;
+	border-radius: 20px;
+	margin: 10px 0px;
+	background-color: var(--clr-darkgreen);
+	border: 1px solid var(--clr-lightgreen)
 }
