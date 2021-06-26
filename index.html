@@ -30,6 +30,9 @@
     	$(function () {
     		$('#footer').load('footer.html');
     	});
+    	$(function () {
+    		$('#sidebar').load('sidebar.html');
+    	});
     </script>
 	<title></title>
 </head>
@@ -40,7 +43,7 @@
 	<div>
 		<div class="row mt-5">
 			<!-- Details side for homepage -->
-			<div class="col-lg-8">
+			<div class="col-lg-9">
 				<div style="width: 60%; height: 400px; padding: 50px 0px; margin-left: 100px;">
 					<h2 style="font-family: Roboto; font-weight: bolder; font-size: 33px"> Improve productivity and connect with farmers around you </h2>
 					<p style="font-size: 18px"> Agrocom is a community created for people in the field of agriculture to help improve productivity and to bring farmers and other area of agricultural fields together to solve agricultural related problems. </p>
@@ -76,8 +79,8 @@
 			<!-- Details side for homepage ends -->
 
 			<!-- Sidebar start -->
-			<div class="col-lg-4">
-				
+			<div class="col-lg-3">
+				<div id="sidebar"></div>
 			</div>
 			<!-- Sidebar end -->
 		</div>

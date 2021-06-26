@@ -90,6 +90,18 @@ header{
 	  border-radius: 8px;
 }
 
+.fill-part-2{
+	  width: 350px;
+	  background-color: var(--clr-darkgreen);
+	  display: inline-block;
+	  color: var(--clr-black);
+	  padding: 10px 45px;
+	  border: 0.1px solid grey;
+	  border-radius: 8px;
+	  font-size: 22px;
+
+}
+
 .in{
 	background-color: var(--clr-white);
 	border: 1px solid grey;
