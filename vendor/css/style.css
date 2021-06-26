@@ -185,3 +185,24 @@ header{
 	background-color: var(--clr-darkgreen);
 	border: 1px solid var(--clr-lightgreen)
 }
+
+.job-search-but{
+	width: 80px;
+	height: 50px;
+	background-color: var(--clr-darkgreen);
+	border-radius: 5px;
+	color: var(--clr-white);
+	border: none;
+}
+
+/********************
+
+      JOBS PAGE
+
+********************/
+
+.job-search{
+	width: 100%;
+	height: 50px;
+	border-radius: 5px;
+}
