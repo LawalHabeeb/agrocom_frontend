@@ -494,6 +494,10 @@ header{
 	margin-left: 12px;
 }
 
+.fl1{
+	flex: 1 auto;
+}
+
 .mb-16{
 	margin-bottom: 16px;
 }
@@ -505,4 +509,90 @@ header{
 .py4{
 	padding-top: 4px;
 	padding-bottom: 4px;
+}
+
+.py24{
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+
+/*****************************
+
+      Ask question section 
+
+*****************************/
+
+body.floating-content #content {
+    width: 100%;
+    max-width: 1264px;
+    margin: 0;
+    background-color: transparent;
+    border-left: 0;
+    border-right: 0;
+}
+
+#content{
+	border-radius: 0;
+    border: 1px solid #d6d9dc;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+.fs-headline1{
+	font-size: 2.07692308rem;
+}
+
+.full-form{
+	padding: 16px;
+	border-color: #d6d9dc;
+	border-radius: 3px;
+	border-style: solid;
+	border-width: 1px;
+	box-shadow: 3px 3px 5px 6px var(--clr-black2);
+}
+
+.mb16{
+	margin-bottom: 16px;
+}
+
+.mb4{
+	margin-bottom: 4px;
+}
+
+.fd-column{
+	flex-direction: column;
+}
+
+.s-label{
+	padding: 0 2px;
+    color: #0c0d0e;
+    font-family: inherit;
+    font-size: 1.15384615rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.description{
+	font-style: 12px;
+	color: #3c4146;
+	flex-basis: 75%;
+}
+
+.s-input{
+	-webkit-appearance: none;
+    width: 100%;
+    margin: 0;
+    padding: .6em .7em;
+    border: 1px solid #bbc0c4;
+    border-radius: 3px;
+    background-color: var(--clr-white);
+    color: #0c0d0e;
+    font-size: 13px;
+    font-family: inherit;
+}
+
+.ps-relative{
+	position: relative;
 }
