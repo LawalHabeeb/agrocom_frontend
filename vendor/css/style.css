@@ -596,3 +596,56 @@ body.floating-content #content {
 .ps-relative{
 	position: relative;
 }
+
+.post-editor{
+	margin-bottom: 16px;
+	box-sizing: border-box;
+	margin-top: 0;
+	width: 100%;
+}
+
+.q-container{
+	width: 100%;
+	box-sizing: border-box;
+	margin-bottom: 8px;
+}
+
+.q-but-bar{
+	clear: both;
+    background-color: transparent;
+    margin: 10px 0 0 0;
+    padding: 0;
+    width: 100%;
+    border: 1px solid var(--black-200);
+    border-bottom: 0;
+    min-height: 44px;
+    overflow: hidden;
+    z-index: 2;
+    position: relative;
+    margin-top: 0;
+}
+
+.btr-sm{
+	border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.q-but-row{
+	padding: 0 4px 0 8px;
+    margin: 0;
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    height: 44px;
+    border-bottom: 1px solid #bbc0c4;
+}
+
+.q-button {
+    max-width: 28px;
+    height: 44px;
+    flex: 10 0 23px;
+    padding: 12px 0 0 0;
+    text-align: center;
+    cursor: pointer;
+}

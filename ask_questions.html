@@ -42,27 +42,51 @@
     <div id="content">
         <div class="grid align-items-center py24">
             <div class="fs-headline1"> Ask a Public Question </div>
-            <div class="grid align-items-start justify-content-between">
-                <div class="grid-cell fl1">
-                    <form class="post-form">
-                        <div id="question-form">
-                            <div class="bg-white full-form">
-                                <div class="ps-relative mb16">
-                                    <div class="grid fl1 fd-column">
-                                        <label class="d-block s-label mb4" for="Title"> Title 
-                                            <div class="grid">
-                                                <p class="mb-4 mt-2 description">Be specific and imagine you are asking another person the question</p>
+        </div>
+        <div class="row">
+            <div class="col-md-9">
+                <div class="grid align-items-start justify-content-between">
+                        <div class="grid-cell fl1">
+                            <form id="post-form" class="post-form">
+                                <div id="question-form">
+                                    <div class="bg-white full-form">
+                                        <div id="post-title" class="ps-relative mb16">
+                                            <div class="grid fl1 fd-column">
+                                                <label class="d-block s-label mb4" for="Title"> Title 
+                                                    <div class="grid">
+                                                        <p class="mb-4 mt-2 description">Be specific and imagine you are asking another person the question</p>
+                                                    </div>
+                                                </label>
+                                                <div class="fl1 ps-relative">
+                                                    <input id="title" name="title" type="text" maxlength="300" tabindex="100" placeholder="e.g What causes a fish to have boil?" class="s-input">
+                                                </div>
                                             </div>
-                                        </label>
-                                        <div class="fl1 ps-relative">
-                                            <input id="title" name="title" type="text" maxlength="300" tabindex="100" placeholder="e.g What causes a fish to have boil?" class="s-input">
+                                        </div>
+                                        <div id="post-editor" class="post-editor">
+                                            <div class="ps-relative">
+                                                <label class="s-label mb-4 d-block" for="q-input">
+                                                    Body
+                                                    <p class="description mt-2"> Include all the information someone would need to answer your question. </p>
+                                                </label>
+                                                <div class="q-container">
+                                                   <div id="q-but-bar" class="q-but-bar btr-sm">
+                                                       <ul id="q-but-row" class="q-but-row">
+                                                           <li class="q-but" id="q-bold-but" title="strong <strong> Ctrl+B">
+                                                               <span style="background-position: 0px 0px;"></span>
+                                                           </li>
+                                                       </ul>
+                                                   </div> 
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </form>
                         </div>
-                    </form>
                 </div>
+            </div>
+            <div class="col-md-3">
+                
             </div>
         </div>
     </div>
