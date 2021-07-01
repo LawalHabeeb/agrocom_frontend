@@ -230,6 +230,12 @@ header{
 	border-radius: 5px;
 }
 
+.verification{
+	color: var(--clr-darkgreen);
+	font-weight: bolder;
+	font-size: 17px;
+}
+
 /********************
 
       Questions
@@ -263,7 +269,7 @@ header{
 	border-right: 2px solid var(--clr-darkgreen);
 }
 
-.question-summary{
+.question-summary, .job-summary{
 	width: 100%;
 	padding: 12px 40px;
 	display: flex;
@@ -288,11 +294,11 @@ header{
 	width: 70px;
 }
 
-.votes, .status{
+.votes, .status, .rating, .contacts{
 	margin-bottom: 8px;
 }
 
-.status.answered{
+.status.answered, .rating.positive{
 	color: var(--clr-white);
 	background-color: var(--clr-darkgreen);
 	padding: 7px 0px 5px;
@@ -344,7 +350,7 @@ header{
 	flex-wrap: wrap;
 }
 
-.post-tag{
+.post-tag, .post-deet{
 	font-size: 12px;
 	background-color: var(--clr-darkgreen);
 	color: var(--clr-lightgreen);
@@ -376,7 +382,7 @@ header{
 	box-sizing: border-box;
 }
 
-.user-action-time{
+.user-action-time, .user-reg-time{
 	margin-bottom: 2px;
 	margin-top: 1px;
 	font-size: 12px;
